@@ -34,7 +34,7 @@ export default function Alphabet() {
     letterAudio.onended = () => {
       setTimeout(() => {
         wordAudio.play();
-      }, 1000); // 1 second delay
+      }, 800); // 1 second delay
     };
   }
 }, [index]);
