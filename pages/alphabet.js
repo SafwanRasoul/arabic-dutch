@@ -26,7 +26,7 @@ export default function Alphabet() {
 
   useEffect(() => {
   if (!isMuted) {
-    const letterAudio = new Audio(`/sounds/${currentLetter}.mp3`);
+    const letterAudio = new Audio(`/sounds/${currentLetter.toLowerCase()}.mp3`);
     const wordAudio = new Audio(`/sounds/${currentWord.toLowerCase()}.mp3`);
 
     letterAudio.play();
