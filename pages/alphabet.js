@@ -12,7 +12,7 @@ const letters = [
 const words = [
   'Appel', 'Boom', 'Computer', 'Deur', 'Eend', 'Fiets', 'Groente',
   'Huis', 'IJs', 'Jas', 'Kat', 'Lamp', 'Maan', 'Neus', 'Oog',
-  'Pen', 'Quiz', 'Regen', 'Slang', 'Tafel', 'Ui', 'Vis',
+  'Pen', 'Quantum', 'Regen', 'Slang', 'Tafel', 'Ui', 'Vis',
   'Water', 'Xylofoon', 'Yoghurt', 'Zon'
 ];
 
