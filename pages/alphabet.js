@@ -49,9 +49,9 @@ export default function Alphabet() {
         toggleMute={() => setMuted(!isMuted)}
         />
       <LetterCard
-  letter={`${Math.round(((index + 1) / letters.length) * 100)}%`}
-  word={currentWord}
-  image={`/images/${currentWord.toLowerCase()}.png`}
+  letter={letters[index]}  
+  word={words[index]}
+  image={`/images/${words[index].toLowerCase()}.png`}
   onPrev={() => index > 0 && setIndex(index - 1)}
   onNext={() => index < letters.length - 1 && setIndex(index + 1)}
   onPlay={() => {
